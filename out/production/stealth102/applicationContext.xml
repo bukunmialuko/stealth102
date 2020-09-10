@@ -18,14 +18,18 @@
     </bean>
 
 
-<!--    <bean id="myCoach"-->
-<!--          class="com.example.stealth102.BaseballCoach">-->
-<!--        <constructor-arg ref="myFortuneService"></constructor-arg>-->
-<!--    </bean>-->
+    <!--    <bean id="myCoach"-->
+    <!--          class="com.example.stealth102.BaseballCoach">-->
+    <!--        <constructor-arg ref="myFortuneService"></constructor-arg>-->
+    <!--    </bean>-->
 
     <bean id="myCricketCoach"
           class="com.example.stealth102.CricketCoach">
         <property name="fortuneService" ref="myFortuneService"/>
+
+        <property name="emailAddress" value="oluwabukunm.aluko@gmail.com"/>
+        <property name="team" value="plunex"/>
+
     </bean>
 
 </beans>
