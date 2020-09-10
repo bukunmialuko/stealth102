@@ -1,5 +1,6 @@
 public class MyApp {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        ICoach theCoach = new BaseballCoach();
+        System.out.println(theCoach.getDailyWorkout());
     }
 }
