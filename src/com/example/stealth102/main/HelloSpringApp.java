@@ -1,5 +1,6 @@
-package com.example.stealth102;
+package com.example.stealth102.main;
 
+import com.example.stealth102.interfaces.ICoach;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class HelloSpringApp {
@@ -13,7 +14,7 @@ public class HelloSpringApp {
 
         // call methods on the bean
         System.out.println(theCoach.getDailyWorkout());
-
+        System.out.println(theCoach.getDailyFortune());
         // close the context
         context.close();
     }

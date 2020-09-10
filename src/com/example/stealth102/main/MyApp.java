@@ -1,4 +1,7 @@
-package com.example.stealth102;
+package com.example.stealth102.main;
+
+import com.example.stealth102.TrackCoach;
+import com.example.stealth102.interfaces.ICoach;
 
 public class MyApp {
     public static void main(String[] args) {
