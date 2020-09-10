@@ -23,6 +23,10 @@
 <!--        <constructor-arg ref="myFortuneService"></constructor-arg>-->
 <!--    </bean>-->
 
+    <bean id="myCricketCoach"
+          class="com.example.stealth102.CricketCoach">
+        <property name="fortuneService" ref="myFortuneService"/>
+    </bean>
 
 </beans>
 
