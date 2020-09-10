@@ -15,15 +15,15 @@
 <!--    		class="com.example.stealth101.HappyFortuneService">-->
 <!--    	</bean>-->
     
- 	<bean id="myCoach"
- 		class="com.example.stealth102.TrackCoach">
- 	</bean>
+<!-- 	<bean id="myCoach"-->
+<!-- 		class="com.example.stealth102.TrackCoach">-->
+<!-- 	</bean>-->
 
-    <!--
+
     <bean id="myCoach"
-        class="com.luv2code.springdemo.com.example.stealth101.com.example.stealth102.BaseballCoach">
+        class="com.example.stealth102.BaseballCoach">
     </bean>
-    -->
+
 
 </beans>
 
