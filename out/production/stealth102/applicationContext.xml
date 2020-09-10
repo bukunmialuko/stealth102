@@ -12,15 +12,16 @@
           class="com.example.stealth102.HappyFortuneService">
     </bean>
 
-    <!-- 	<bean id="myCoach"-->
-    <!-- 		class="com.example.stealth102.TrackCoach">-->
-    <!-- 	</bean>-->
-
-
     <bean id="myCoach"
-          class="com.example.stealth102.BaseballCoach">
+          class="com.example.stealth102.TrackCoach">
         <constructor-arg ref="myFortuneService"></constructor-arg>
     </bean>
+
+
+<!--    <bean id="myCoach"-->
+<!--          class="com.example.stealth102.BaseballCoach">-->
+<!--        <constructor-arg ref="myFortuneService"></constructor-arg>-->
+<!--    </bean>-->
 
 
 </beans>
